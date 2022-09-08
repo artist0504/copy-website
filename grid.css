@@ -26,10 +26,14 @@ h3 {
 }
 
 #community {
-    display: grid;
+    display: flex;
     grid-template-columns: 80% 20%;
     background-color: rgb(246, 239, 239);
 }
 #community-header {
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+
+#discussion-header {
+    background-color: rgb(246, 239, 239);
 }
