@@ -1,0 +1,35 @@
+#city-name {
+    display: grid;
+    text-align: center;
+    background-color: rgb(246, 239, 239);
+    color: blue;
+}
+
+#side-menu {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: rgb(246, 239, 239);
+    text-align: center;
+    background-size: 500px;
+}
+
+.section-header {
+    display: grid;
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(246, 239, 239);
+}
+p,
+li,
+h3 {
+    color: blue;
+}
+
+#community {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: rgb(246, 239, 239);
+}
+#community-header {
+    grid-template-columns: 80% 20%;
+}
